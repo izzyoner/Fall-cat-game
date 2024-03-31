@@ -1,3 +1,16 @@
+    
+    
+    _____________________
+        Git comands     |
+    ____________________|
+
+        Create
+    1 - go to directory on terminal
+    2 - git init
+
+        add archive 
+        commit -m "write a mensage"
+        push main ????
 
 
 
@@ -5,4 +18,10 @@
 -------game----pendients------
 
 pyshics - ok - experiment whit velocity in player
-render - ok  - create function 
+render - ok  - create function
+background
+animate sprites
+camera
+hitbox
+plataforms
+

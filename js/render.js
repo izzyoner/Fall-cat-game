@@ -3,16 +3,17 @@ var ctx = canvas.getContext("2d");
 
 function animate(){
     
-    playerone.x = movement(playerone.x);
+    movement(playerone);
+    mechanics(playerone)
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     
      if (collision(playerone,block1)){
-        playerone.x = collisionDetectiony(playerone,block1);
+        collisionDetectiony(playerone,block1);
     }
-    playerone.y = Gravity(playerone.y);
+    gravity(playerone);
     
     if  (collision(playerone,block1)){
-        playerone.y = collisionDetection(playerone,block1);
+        collisionDetection(playerone,block1);
     }
     
     
