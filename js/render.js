@@ -44,13 +44,21 @@ function animate(){
     ctx.scale(4,4);
     ctx.translate(cx, cy)
     background.draw();
+    
     ctx.restore();
     /*ctx.drawImage(img, 0, 0);*/
+    
     blockplayer.draw();
     
     
 
     playerone.draw();
+    
+    playersprite.position.x =playerone.x;
+    playersprite.position.y =playerone.y;
+    playersprite.draw();
+   
+    
     block1.draw();
     block2.draw();
     /*console.log(playerone);*/

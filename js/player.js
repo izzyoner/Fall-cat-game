@@ -12,6 +12,4 @@ class player{
         ctx.fillStyle = "#0095DD";
         ctx.fillRect(this.x, this.y, this.width, this.height);
     }
-
-    
 }
